@@ -1,0 +1,127 @@
+/* Modal styles */
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(20px); /* Add blur effect */
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: rgba(0, 0, 0, 0.8); /* Make the modal content background slightly transparent */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    position: relative;
+    color: white;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  button[type="submit"] {
+    background-color: #e7081e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #d0071b;
+  }
+  
+  .text-center {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .text-center p {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .link-button {
+    color: #fff;
+    text-decoration: none; /* Remove underline */
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .link-button:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  h2 {
+    color: #fff;
+  }
+  
+  /* Home container styles */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white; /* Set home page background color to white */
+  }
+  
+  .home-container button {
+    background-color: #e7081e;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .home-container button:hover {
+    background-color: #d0071b;
+  }
+  

@@ -1,0 +1,63 @@
+.review-card {
+  background-color:black;
+  color:white;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height : 230px;
+}
+
+.profile-pic {
+  display: flex;
+  align-items: center;
+}
+
+.review-card .profile-pic i {
+  font-size: 36px;
+  color:white;
+  margin-right: 15px;
+}
+
+.review-content {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.review-content h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.review-text {
+  margin: 10px 0;
+  font-size: 1em;
+  color: white;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  color: white;
+}
+
+.rating span {
+  margin: 4px 2px;
+  color :white;
+  size: 20px;
+
+}
+
+.rating-text {
+  display:none;
+  font-size: 1em;
+  color:white;
+  margin-left: 9px;
+}
+
